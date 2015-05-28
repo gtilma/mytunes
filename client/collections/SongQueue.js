@@ -14,7 +14,7 @@ var SongQueue = Songs.extend({
   },
 
   playNext: function(){
-    this.shift()
+    this.shift();
     if (this.length !== 0){
       this.playFirst();
     } else {
